@@ -8,5 +8,36 @@
 .background-image {
   background-image: url(Background.jpg);
   background-size: cover;
-  height: 100vh;
+
+
+}
+
+
+.test {
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+hr {
+  color: red;
+}
+
+
+@media screen and (max-width: 1400px) {
+
+  .test {
+    font-size: 12px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 960px) {
+
+  .test {
+    font-size: 7px;
+  }
+
 }

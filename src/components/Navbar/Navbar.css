@@ -1,15 +1,25 @@
+/*------------------------------------- Początek menu -------------------------------------------*/
+
+
 .NavbarItems {
     /* background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73, 63, 252, 1)100%);*/
     height: 80px;
+    width: 100%;
     display: flex;
+    position: fixed;
     justify-content: center;
     align-items: center;
+    z-index: 2;
+    /*margin-bottom: 200px;
+*/
+
 }
 
 .navbar-logo {
     color: rgb(68, 165, 197);
     justify-self: start;
     cursor: pointer;
+    margin-left: 35px;
 }
 
 
@@ -48,21 +58,23 @@
 }
 
 
-
+/*Kolor ikony menu. Menu pojaiwa sie tylko wersji mobilnej, więc mozna ostylować go w tej części kodu*/
 .fa-bars {
     color: white;
 }
 
 /* nav-links to nazwa klasy pobrana z pliku MenuItems.js jako cName i użyta w Navbar.js*/
-
+/*,,Twoje konto" zostało ukryte w wersji na komputer*/
 .nav-links-mobile {
     display: none;
 }
 
+/*Ikona rówmnież jest ukrytę w wersji na komputer*/
 .menu-icon {
     display: none;
 }
 
+/*Pole do wpisywania */
 .input {
     border: none;
     padding: 1.8px;
@@ -70,6 +82,7 @@
     outline: none;
 }
 
+/*Lupka*/
 .search {
     margin-right: 2rem;
     border-radius: 0 20px 20px 0;
@@ -82,9 +95,20 @@
 }
 
 
+button:hover {
+    background-color: rgb(76, 204, 246);
+
+}
+
+/*------------------------------------- Koniec menu  -------------------------------------------*/
+
 @media screen and (max-width: 960px) {
+
+    /*------------------------------------- Początek menu mobilnego -------------------------------------------*/
+
     .NavbarItems {
         position: relative;
+        margin-bottom: 20px;
     }
 
     .nav-menu {
@@ -176,8 +200,10 @@
     .input {
         display: block;
         margin-bottom: 15px;
-        margin-left: 80px;
+        margin-left: 170px;
 
     }
+
+    /*------------------------------------- Koniec menu mobilnego -------------------------------------------*/
 
 }

@@ -1,0 +1,82 @@
+.logos {
+
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    text-align: center;
+    display: flex;
+    grid-gap: 10px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 25%;
+    /* height: 100%;*/
+    /*Jeżeli chcemy aby kazdy z pojemników miał wysokośc dobraną do ilości tekstu*/
+    background-color: rgb(76, 204, 246, 0.7);
+    border-radius: 40px;
+    margin: 5px;
+}
+
+.container1 {
+
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+    grid-gap: 10px;
+    margin-bottom: 20px;
+    margin: 5px;
+}
+
+.video {
+    background-color: rgb(76, 204, 246, 0.7);
+
+}
+
+.video-text {
+    display: grid;
+    grid-template-rows: auto;
+    margin-right: 10px;
+    background-color: rgb(76, 204, 246, 0.7);
+
+}
+
+.video-text .yt a {
+    text-decoration: none;
+}
+
+
+
+.video-text .yt {
+    color: #c4302b
+}
+
+.video-text .fb {
+    color: #3b5998
+}
+
+.video-text .in {
+    color: #f56040;
+}
+
+.video-text .tw {
+    color: #1DA1F2;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    .video {
+        background-color: rgb(76, 204, 246, 0.7);
+
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+    .video {
+        background-color: rgb(76, 204, 246, 0.7);
+
+    }
+
+
+}
