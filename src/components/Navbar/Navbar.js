@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import { MenuItems} from "./MenuItems";
 import { Button } from "../Button";
 import './Navbar.css';
-
-
+import Contact from '../../Pages/Contact/Contact';
 
 class Navbar extends Component{
 state = {clicked: false }
@@ -34,12 +33,21 @@ handleClick = () => {
 
 
 )
-    })}
+    })}<div>
+
+    </div>
+    
+    
     
 </ul>
 <input type="search" placeholder="Szukaj" className="input"></input>{/* Miejsce na wprowadzenie tekstu */}
 <button className="search"><i class="fas fa-search"></i></button>{/* Przycisk szukania */}
 <Button>Zaloguj się</Button>
+
+
+
+
+
 
 </nav>
         ); 
