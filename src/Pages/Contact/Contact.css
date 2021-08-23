@@ -1,0 +1,90 @@
+.contact-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    padding-top: 10px;
+    background-color: rgb(76, 204, 246);
+    padding: 20px 20px 20px 0;
+    margin-top: 20px;
+}
+
+.photo img {
+    width: 100%;
+}
+
+
+.info {
+    margin-left: 10px;
+}
+
+.info ul {
+    font-size: 18px;
+}
+
+.info li {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.info p {
+    font-size: 18px;
+}
+
+
+.workers {
+    display: grid;
+    grid-gap: 20px 2%;
+    grid-template-columns: 49% 49%;
+    margin-top: 20px;
+
+
+}
+
+.employee {
+    text-align: center;
+    background-image: linear-gradient(rgb(243, 186, 64, 0.7), rgb(76, 204, 246));
+    padding: 0 10% 0 10%;
+}
+
+.employee img {
+    width: 20%;
+    border-radius: 50%;
+
+}
+
+.employee-social {
+    font-size: 40px;
+
+}
+
+.employee-social a {
+    margin: 8px
+}
+
+.employee-social .linkedin {
+    color: #2867b2
+}
+
+.employee-social .gmail {
+    color: #c71610
+}
+
+
+.employee-social .facebook {
+    color: #3b5998
+}
+
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+}
+
+@media screen and (max-width: 960px) {
+
+    .employee-social {
+        font-size: 20px;
+
+    }
+}

@@ -12,11 +12,10 @@
 
 }
 
-
-.test {
+.contents {
   margin-left: 15%;
   margin-right: 15%;
-
+  padding-top: 100px;
 }
 
 hr {
@@ -26,18 +25,52 @@ hr {
 
 @media screen and (max-width: 1400px) {
 
-  .test {
+  .contents p {
     font-size: 12px;
   }
 
+  .contents li {
+    font-size: 12px;
+  }
+
+  .contents h1 {
+    font-size: 15px;
+  }
+
+
+  .social {
+    font-size: 15px;
+
+  }
 
 }
 
 
 @media screen and (max-width: 960px) {
 
-  .test {
+  .contents p {
     font-size: 7px;
+  }
+
+  .contents li {
+    font-size: 7px;
+  }
+
+  .contents h1 {
+    font-size: 14px;
+  }
+
+  .contents h2 {
+    font-size: 12px;
+  }
+
+  .contents h3 {
+    font-size: 9px;
+  }
+
+  .social {
+    font-size: 8px;
+
   }
 
 }

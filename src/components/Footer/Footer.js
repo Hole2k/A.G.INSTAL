@@ -26,11 +26,11 @@ return(
 
              }})} 
       
-      <div className="social">
+      <div className="footer-social">
           
-            <a href="https://www.facebook.com/" target="_blank"><FiFacebook className="fb" /></a>
-            <a href="https://www.instagram.com/" target="_blank"><FiInstagram className="insta" /></a>
-            <a href="https://twitter.com/" target="_blank"><FiTwitter className="twitter" /></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FiFacebook className="fb" /></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><FiInstagram className="insta" /></a>
+            <a href="https://twitter.com/" target="_blank" rel="noreferrer"><FiTwitter className="twitter" /></a>
              </div>
 
              <br/>

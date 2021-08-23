@@ -12,7 +12,7 @@
     width: 25%;
     /* height: 100%;*/
     /*Jeżeli chcemy aby kazdy z pojemników miał wysokośc dobraną do ilości tekstu*/
-    background-color: rgb(76, 204, 246, 0.7);
+    background-image: linear-gradient(rgb(243, 186, 64, 0.7), rgb(76, 204, 246));
     border-radius: 40px;
     margin: 5px;
 }
@@ -29,6 +29,7 @@
 
 .video {
     background-color: rgb(76, 204, 246, 0.7);
+    height: 50vh;
 
 }
 

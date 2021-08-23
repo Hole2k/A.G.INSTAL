@@ -14,7 +14,7 @@ export const FooterItems =
 
     {
         title: 'Polityka prywatności',
-        url: '#',
+        url: '/Cookies',
         cName: `footer-links`
     },
 
@@ -26,7 +26,7 @@ export const FooterItems =
 
     {
         title: 'Kontakt',
-        url: '#',
+        url: '/Contact',
         cName: `footer-links`
     }
 

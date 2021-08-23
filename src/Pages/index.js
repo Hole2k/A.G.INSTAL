@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from "react-router-dom"
 import Content from "../components/Content/Content";
 import {SliderData} from '../components/Slider/SliderData';
 import ImageSlider from '../components/Slider/ImageSlider';

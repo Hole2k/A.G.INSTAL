@@ -4,7 +4,7 @@
     bottom: 20px;
     padding: 0 0 0 35px;
     list-style-type: none;
-    margin: 0 20px 0 0;
+    margin: 20px 20px 0 0;
 
 }
 
@@ -32,25 +32,23 @@
     color: rgb(48, 104, 51);
 }
 
-.social {
+.footer-social {
     font-size: 25px;
     display: flex;
-
     justify-content: center;
-
 }
 
-.fb {
+.footer-social .fb {
     margin-right: 3px;
     color: #3b5998
 }
 
-.insta {
+.footer-social .insta {
     margin-right: 5px;
     color: #f56040;
     ;
 }
 
-.twitter {
+.footer-social .twitter {
     color: #1DA1F2;
 }
