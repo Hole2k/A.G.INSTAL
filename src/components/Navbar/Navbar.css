@@ -95,7 +95,7 @@
 }
 
 
-button:hover {
+.NavbarItems button:hover {
     background-color: rgb(76, 204, 246);
 
 }

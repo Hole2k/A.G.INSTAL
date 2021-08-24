@@ -15,7 +15,7 @@
 }
 
 .right-arrow {
-    position: flex;
+
     top: 50%;
     right: 32px;
     font-size: 3rem;
@@ -26,7 +26,7 @@
 }
 
 .left-arrow {
-    position: flex;
+
     top: 50%;
     left: 32px;
     font-size: 3rem;
@@ -36,10 +36,7 @@
     user-select: none;
 }
 
-.slide {
-    opacity: 0;
-    transition-duration: 1s ease;
-}
+
 
 .slide.active {
     opacity: 1;

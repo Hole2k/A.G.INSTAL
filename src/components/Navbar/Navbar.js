@@ -22,18 +22,19 @@ handleClick = () => {
 <ul className ={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>{/* */}
 
     {MenuItems.map((item, index) =>{{/* Mapa z MenuItems.js która posiada item oraz index*/}
-    return(
+  
+  
+  return(
 <li key = {index}>{/* index pobierany z mapy wyżej. */}
     <a className = {item.cName} href = {item.url} >{/* Do ,,a" jest przypisana klasa, href oraz Nazwa. Wszystkie informacje znajdują się pliku MenuItems.js*/}
 {item.title}
 </a>
-
 </li>
-
-
-
 )
-    })}<div>
+   
+   
+   
+   })}<div>
 
     </div>
     

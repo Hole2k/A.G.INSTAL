@@ -1,14 +1,10 @@
 .logos {
-
-    display: grid;
-    grid-template-columns: repeat(4, auto);
     text-align: center;
     display: flex;
-    grid-gap: 10px;
     margin-bottom: 40px;
 }
 
-.logo {
+.logos .logo {
     width: 25%;
     /* height: 100%;*/
     /*Jeżeli chcemy aby kazdy z pojemników miał wysokośc dobraną do ilości tekstu*/
@@ -27,7 +23,7 @@
     margin: 5px;
 }
 
-.video {
+.container1 .video {
     background-color: rgb(76, 204, 246, 0.7);
     height: 50vh;
 
@@ -41,18 +37,19 @@
 
 }
 
-.video-text .yt a {
+.video-text a {
     text-decoration: none;
+
 }
 
-
+.video-text {}
 
 .video-text .yt {
-    color: #c4302b
+    color: #c4302b;
 }
 
 .video-text .fb {
-    color: #3b5998
+    color: #3b5998;
 }
 
 .video-text .in {

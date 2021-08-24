@@ -20,7 +20,7 @@ export const FooterItems =
 
     {
         title: 'Kariera',
-        url: '#',
+        url: '/Offers',
         cName: `footer-links`
     },
 
